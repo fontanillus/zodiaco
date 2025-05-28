@@ -1,0 +1,59 @@
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    padding-top: 0%;
+    height: auto;
+}
+
+
+.lugar {
+    margin-right: 20%;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    padding-top: 10%;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    background-image: url(../img/constelaciones.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    /* Adjust the transparency */
+    z-index: -1;
+    /* Keep it behind the content */
+}
+
+label {
+    display: inline-block;
+    width: 15em;
+}
+
+input {
+    width: 5em;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    background-color: whitesmoke;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+    margin-left: 9%;
+    margin-right: 15%;
+
+}
+
+div {
+    text-align: center;
+}
+
