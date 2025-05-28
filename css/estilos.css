@@ -24,7 +24,7 @@ body::before {
     background-image: url(../img/constelaciones.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.7;
+    opacity: 0.5;
     /* Adjust the transparency */
     z-index: -1;
     /* Keep it behind the content */
